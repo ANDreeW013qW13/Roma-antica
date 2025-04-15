@@ -1,31 +1,26 @@
-/* Stiluri generale */
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #e6f7ff; /* Fundal deschis albastru pal */
+    background-color: #e6f7ff;
     color: #333;
 }
-
 a {
     color: #4682b4;
     text-decoration: none;
     font-weight: bold;
 }
-
 h1, h2, h3 {
     text-align: center;
     color: #2c3e50;
     margin-bottom: 20px;
 }
-
 p {
     margin: 10px 0;
     padding: 0 20px;
     text-align: justify;
 }
-
 div {
     padding: 20px;
     margin: 20px auto;
@@ -34,30 +29,24 @@ div {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-/* Stiluri pentru header */
 header {
-    background-color: #004080; /* Fundal albastru închis */
+    background-color: #004080;
     color: white;
     text-align: center;
     padding: 20px 0;
     border-bottom: 3px solid #0066cc;
 }
-
 header h1 {
     margin: 0;
     font-size: 2.5rem;
     font-weight: bold;
-    color: #ffcc00; /* Titlu galben pentru contrast */
+    color: #ffcc00;
 }
-
 header p {
     margin: 10px 0 0;
     font-size: 1rem;
-    color: #e6f7ff; /* Text deschis pentru contrast */
+    color: #e6f7ff;
 }
-
-/* Stiluri pentru formulare */
 form {
     display: flex;
     flex-direction: column;
@@ -70,7 +59,6 @@ form {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 form label {
     margin-bottom: 5px;
     font-weight: bold;
@@ -86,7 +74,6 @@ form button {
     border-radius: 4px;
     font-size: 1rem;
 }
-
 form button {
     background-color: #4682b4;
     color: white;
@@ -94,20 +81,15 @@ form button {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
 form button:hover {
     background-color: #5f9ea0;
 }
-
-/* Stiluri pentru imagini */
 img {
-    width: calc(50% - 10px); /* Jumătate din lățime, cu spațiu între ele */
-    height: auto; /* Păstrează proporțiile */
+    width: calc(50% - 10px);
+    height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-/* Stiluri pentru tabele */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -115,42 +97,33 @@ table {
     background-color: #f9f9f9;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 table th,
 table td {
     border: 1px solid #ccc;
     padding: 10px;
     text-align: left;
 }
-
 table th {
     background-color: #4682b4;
     color: white;
     font-weight: bold;
 }
-
-/* Adaptare pentru versiunea mobilă */
 @media (max-width: 768px) {
     header h1 {
         font-size: 1.5rem;
     }
-
     div {
         padding: 10px;
     }
-
     form {
         width: 90%;
     }
-
     img {
-        width: 100%; /* Imaginile ocupă întreaga lățime */
+        width: 100%;
     }
-
     table {
-        font-size: 0.9rem; /* Dimensiune mai mică pentru text */
+        font-size: 0.9rem;
     }
-
     table th, table td {
         padding: 5px;
     }
